@@ -1,0 +1,17 @@
+{
+  "name": "sample-app-1",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Simple example for deploying an rfunc web app",
+  "main": "app.mjs",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chassless Apps, Inc.",
+  "license": "SEE LICENSE IN ./LICENSE",
+  "dependencies": {
+    "rfunc": "file:../rfunc",
+    "rfunc-ws": "file:../rfunc-ws",
+    "web-rfunc": "file:../web-rfunc"
+  }
+}
